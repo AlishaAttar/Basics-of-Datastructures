@@ -1,3 +1,6 @@
+
+
+
 class Node:
     def __init__(self,val):
         self.data=val
@@ -13,16 +16,27 @@ class LinkedList:
             while(temp.next):
                 temp=temp.next
             temp.next=new_node #appending new node
-   
+    def del_node(self,val):
+        temp=self.head
+        prev=None
+        if temp.data==val:
+            self.head=self.head.next
+            return
+        while(temp):
+            if temp.data==val:#searching value
+                break
+            else:   #traverse
+                prev=temp
+                temp=temp.next
+        if temp==None:
+            print("Value is not present in the list")
+        prev.next=temp.next            
 
     def print(self):
-        count=0
         temp=self.head
         while temp:
             print(temp.data)
-            count+=1
             temp=temp.next
-        print(count)
 list=LinkedList()
 n1=Node(10)
 n2=Node(20)
@@ -30,6 +44,13 @@ n3=Node(30)
 list.append(n1)
 list.append(n2)
 list.append(n3)
-list.append(Node(40))
-list.print()            
+list.append(Node(55))
+list.append(Node(48))
+list.del_node(48)
+list.print()
 
+list.print()         
+
+#reversing,concatanating,deleting a node
+
+ 
