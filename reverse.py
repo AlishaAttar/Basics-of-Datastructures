@@ -65,6 +65,7 @@ list.reverse()
 
 list.print()         
 
-#reversing,concatanating,deleting a node
+
+#HW print sum of 2 consecutive nodes in sll.
 
  
