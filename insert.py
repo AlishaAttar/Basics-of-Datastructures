@@ -47,4 +47,4 @@ list.print()
 
 #reversing,concatanating,deleting a node
 
-
+ 
