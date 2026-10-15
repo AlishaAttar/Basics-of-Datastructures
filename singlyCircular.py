@@ -19,8 +19,6 @@ class LinkedList:
             temp.next = new_node 
             new_node.next=self.head
 
-   
- 
     def print(self): 
         temp = self.head 
         while (True): 
