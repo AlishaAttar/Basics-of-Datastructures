@@ -46,7 +46,7 @@ list.append(n2)
 list.append(n3)
 list.append(Node(55))
 list.append(Node(48))
-list.del_node(48)
+list.del_node(55)
 list.print()
 
 list.print()         

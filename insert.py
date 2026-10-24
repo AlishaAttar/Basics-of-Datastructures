@@ -33,15 +33,10 @@ class LinkedList:
             print(temp.data)
             temp=temp.next
 list=LinkedList()
-n1=Node(10)
-n2=Node(20)
-n3=Node(30)
-list.append(n1)
-list.append(n2)
-list.append(n3)
+
 list.append(Node(55))
 list.append(Node(48))
-list.print()
+
 list.insert(Node(100),1)
 list.print()         
 
