@@ -39,7 +39,8 @@ ll.append(Node(20))
 ll.append(Node(22))
 ll.prepend(Node(11))
 ll.delete(Node(11))
-ll.print()           
+ll.print()  
+#conceptual questions and few output based          
 
 
 
